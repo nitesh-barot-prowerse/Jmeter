@@ -1,0 +1,141 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1733919149918,833,Search Flights,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,1,1,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,314,0,24
+1733919149918,314,Search Flights-0,302,Found,Thread Group 1-1,text,true,,259,155,1,1,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,314,0,24
+1733919150233,518,Search Flights-1,200,OK,Thread Group 1-1,text,true,,7245,155,1,1,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,491,0,100
+1733919150752,690,Select Flight,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,1,1,https://blazedemo.com/purchase.php,283,0,0
+1733919150752,283,Select Flight-0,302,Found,Thread Group 1-1,text,true,,231,223,1,1,http://blazedemo.com/purchase.php,283,0,0
+1733919151036,406,Select Flight-1,200,OK,Thread Group 1-1,text,true,,6715,127,1,1,https://blazedemo.com/purchase.php,377,0,0
+1733919149918,1523,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-1,,false,,14450,660,1,1,null,597,2,24
+1733919151443,713,Search Flights,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,292,0,0
+1733919151443,292,Search Flights-0,302,Found,Thread Group 1-1,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,292,0,0
+1733919151735,421,Search Flights-1,200,OK,Thread Group 1-1,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,394,0,0
+1733919151915,835,Search Flights,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,303,0,13
+1733919151915,303,Search Flights-0,302,Found,Thread Group 1-2,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,303,0,13
+1733919152219,531,Search Flights-1,200,OK,Thread Group 1-2,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,504,0,100
+1733919152157,737,Select Flight,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,2,2,https://blazedemo.com/purchase.php,293,0,0
+1733919152157,293,Select Flight-0,302,Found,Thread Group 1-1,text,true,,231,223,2,2,http://blazedemo.com/purchase.php,293,0,0
+1733919152450,444,Select Flight-1,200,OK,Thread Group 1-1,text,true,,6715,127,2,2,https://blazedemo.com/purchase.php,419,0,0
+1733919151443,1450,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-1,,false,,14450,660,2,2,null,585,1,0
+1733919152751,737,Select Flight,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,1,1,https://blazedemo.com/purchase.php,293,0,0
+1733919152751,293,Select Flight-0,302,Found,Thread Group 1-2,text,true,,231,223,1,1,http://blazedemo.com/purchase.php,293,0,0
+1733919153044,444,Select Flight-1,200,OK,Thread Group 1-2,text,true,,6715,127,1,1,https://blazedemo.com/purchase.php,416,0,0
+1733919151914,1572,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-2,,false,,14450,660,1,1,null,596,2,13
+1733919153488,726,Search Flights,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,288,0,0
+1733919153488,288,Search Flights-0,302,Found,Thread Group 1-2,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,288,0,0
+1733919153777,437,Search Flights-1,200,OK,Thread Group 1-2,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,410,0,0
+1733919154215,705,Select Flight,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,2,2,https://blazedemo.com/purchase.php,286,0,0
+1733919154215,286,Select Flight-0,302,Found,Thread Group 1-2,text,true,,231,223,2,2,http://blazedemo.com/purchase.php,286,0,0
+1733919154501,419,Select Flight-1,200,OK,Thread Group 1-2,text,true,,6715,127,2,2,https://blazedemo.com/purchase.php,395,0,0
+1733919153488,1431,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-2,,false,,14450,660,2,2,null,574,1,0
+1733919153925,1097,Search Flights,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Flights from Paris to London/,7508,310,1,1,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,597,0,15
+1733919153925,597,Search Flights-0,302,Found,Thread Group 1-3,text,true,,263,155,1,1,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,597,0,15
+1733919154523,499,Search Flights-1,200,OK,Thread Group 1-3,text,true,,7245,155,1,1,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,491,0,99
+1733919155022,699,Select Flight,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,1,1,https://blazedemo.com/purchase.php,283,0,0
+1733919155022,283,Select Flight-0,302,Found,Thread Group 1-3,text,true,,231,223,1,1,http://blazedemo.com/purchase.php,283,0,0
+1733919155305,416,Select Flight-1,200,OK,Thread Group 1-3,text,true,,6715,127,1,1,https://blazedemo.com/purchase.php,402,0,0
+1733919153925,1796,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-3,,false,,14454,660,1,1,null,880,0,15
+1733919155722,698,Search Flights,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Flights from Paris to London/,7508,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,289,0,0
+1733919155722,289,Search Flights-0,302,Found,Thread Group 1-3,text,true,,263,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,289,0,0
+1733919156012,408,Search Flights-1,200,OK,Thread Group 1-3,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,399,0,0
+1733919155915,908,Search Flights,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,295,0,15
+1733919155915,295,Search Flights-0,302,Found,Thread Group 1-4,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,295,0,15
+1733919156211,612,Search Flights-1,200,OK,Thread Group 1-4,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,586,0,186
+1733919156421,692,Select Flight,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,2,2,https://blazedemo.com/purchase.php,288,0,0
+1733919156421,288,Select Flight-0,302,Found,Thread Group 1-3,text,true,,231,223,2,2,http://blazedemo.com/purchase.php,288,0,0
+1733919156709,404,Select Flight-1,200,OK,Thread Group 1-3,text,true,,6715,127,2,2,https://blazedemo.com/purchase.php,400,0,0
+1733919155722,1390,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-3,,false,,14454,660,2,2,null,577,1,0
+1733919156824,732,Select Flight,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,1,1,https://blazedemo.com/purchase.php,290,0,0
+1733919156824,290,Select Flight-0,302,Found,Thread Group 1-4,text,true,,231,223,1,1,http://blazedemo.com/purchase.php,290,0,0
+1733919157114,442,Select Flight-1,200,OK,Thread Group 1-4,text,true,,6715,127,1,1,https://blazedemo.com/purchase.php,414,0,0
+1733919155915,1640,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-4,,false,,14450,660,1,1,null,585,1,15
+1733919157557,704,Search Flights,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,278,0,0
+1733919157557,278,Search Flights-0,302,Found,Thread Group 1-4,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,278,0,0
+1733919157835,426,Search Flights-1,200,OK,Thread Group 1-4,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,397,0,0
+1733919157916,795,Search Flights,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,301,0,14
+1733919157916,301,Search Flights-0,302,Found,Thread Group 1-5,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,301,0,14
+1733919158218,493,Search Flights-1,200,OK,Thread Group 1-5,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,477,0,98
+1733919158262,700,Select Flight,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,2,2,https://blazedemo.com/purchase.php,290,0,0
+1733919158262,290,Select Flight-0,302,Found,Thread Group 1-4,text,true,,231,223,2,2,http://blazedemo.com/purchase.php,290,0,0
+1733919158552,410,Select Flight-1,200,OK,Thread Group 1-4,text,true,,6715,127,2,2,https://blazedemo.com/purchase.php,404,0,0
+1733919157557,1404,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-4,,false,,14450,660,2,2,null,568,1,0
+1733919158712,705,Select Flight,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,1,1,https://blazedemo.com/purchase.php,294,0,0
+1733919158712,294,Select Flight-0,302,Found,Thread Group 1-5,text,true,,231,223,1,1,http://blazedemo.com/purchase.php,294,0,0
+1733919159006,411,Select Flight-1,200,OK,Thread Group 1-5,text,true,,6715,127,1,1,https://blazedemo.com/purchase.php,396,0,0
+1733919157915,1500,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-5,,false,,14450,660,1,1,null,595,3,14
+1733919159418,683,Search Flights,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,1,1,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,288,0,0
+1733919159418,288,Search Flights-0,302,Found,Thread Group 1-5,text,true,,259,155,1,1,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,288,0,0
+1733919159707,394,Search Flights-1,200,OK,Thread Group 1-5,text,true,,7245,155,1,1,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,388,0,0
+1733919160101,689,Select Flight,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,1,1,https://blazedemo.com/purchase.php,290,0,0
+1733919160101,290,Select Flight-0,302,Found,Thread Group 1-5,text,true,,231,223,1,1,http://blazedemo.com/purchase.php,290,0,0
+1733919160391,399,Select Flight-1,200,OK,Thread Group 1-5,text,true,,6715,127,1,1,https://blazedemo.com/purchase.php,376,0,0
+1733919159418,1372,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-5,,false,,14450,660,1,1,null,578,0,0
+1733925124469,1152,Search Flights,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,482,0,186
+1733925124469,485,Search Flights-0,302,Found,Thread Group 1-1,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,482,0,186
+1733925124956,665,Search Flights-1,200,OK,Thread Group 1-1,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,658,0,265
+1733925126405,800,Search Flights,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,309,0,14
+1733925126405,309,Search Flights-0,302,Found,Thread Group 1-2,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,309,0,14
+1733925126715,490,Search Flights-1,200,OK,Thread Group 1-2,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,484,0,104
+1733925128231,698,Select Flight,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,3,3,https://blazedemo.com/purchase.php,277,0,0
+1733925128231,277,Select Flight-0,302,Found,Thread Group 1-1,text,true,,231,223,3,3,http://blazedemo.com/purchase.php,277,0,0
+1733925128508,421,Select Flight-1,200,OK,Thread Group 1-1,text,true,,6715,127,3,3,https://blazedemo.com/purchase.php,402,0,0
+1733925123405,1850,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-1,,false,,14450,660,3,3,null,759,3675,186
+1733925128610,666,Select Flight,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,3,3,https://blazedemo.com/purchase.php,282,0,0
+1733925128610,282,Select Flight-0,302,Found,Thread Group 1-2,text,true,,231,223,3,3,http://blazedemo.com/purchase.php,282,0,0
+1733925128892,384,Select Flight-1,200,OK,Thread Group 1-2,text,true,,6715,127,3,3,https://blazedemo.com/purchase.php,375,0,0
+1733925125403,1466,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-2,,false,,14450,660,3,3,null,591,2407,14
+1733925128407,1122,Search Flights,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,602,0,16
+1733925128407,602,Search Flights-0,302,Found,Thread Group 1-3,text,true,,259,155,4,4,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,602,0,16
+1733925129011,518,Search Flights-1,200,OK,Thread Group 1-3,text,true,,7245,155,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,493,0,101
+1733925129932,659,Search Flights,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,279,0,0
+1733925129932,279,Search Flights-0,302,Found,Thread Group 1-1,text,true,,259,155,4,4,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,279,0,0
+1733925130211,380,Search Flights-1,200,OK,Thread Group 1-1,text,true,,7245,155,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,368,0,0
+1733925130287,657,Search Flights,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,280,0,0
+1733925130287,280,Search Flights-0,302,Found,Thread Group 1-2,text,true,,259,155,4,4,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,280,0,0
+1733925130567,377,Search Flights-1,200,OK,Thread Group 1-2,text,true,,7245,155,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,370,0,0
+1733925130428,958,Search Flights,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Flights from Paris to London/,7508,310,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,417,0,16
+1733925130428,417,Search Flights-0,302,Found,Thread Group 1-4,text,true,,263,155,4,4,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,417,0,16
+1733925130846,540,Search Flights-1,200,OK,Thread Group 1-4,text,true,,7245,155,4,4,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,522,0,107
+1733925131679,730,Select Flight,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,5,5,https://blazedemo.com/purchase.php,282,0,0
+1733925131679,282,Select Flight-0,302,Found,Thread Group 1-3,text,true,,231,223,5,5,http://blazedemo.com/purchase.php,282,0,0
+1733925131961,448,Select Flight-1,200,OK,Thread Group 1-3,text,true,,6715,127,5,5,https://blazedemo.com/purchase.php,420,0,0
+1733925127404,1852,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-3,,false,,14450,660,5,5,null,884,3153,16
+1733925132401,836,Search Flights,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,5,5,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,293,0,14
+1733925132401,293,Search Flights-0,302,Found,Thread Group 1-5,text,true,,259,155,5,5,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,293,0,14
+1733925132695,542,Search Flights-1,200,OK,Thread Group 1-5,text,true,,7245,155,5,5,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,514,0,102
+1733925132676,749,Select Flight,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,5,5,https://blazedemo.com/purchase.php,292,0,0
+1733925132676,292,Select Flight-0,302,Found,Thread Group 1-2,text,true,,231,223,5,5,http://blazedemo.com/purchase.php,292,0,0
+1733925132969,456,Select Flight-1,200,OK,Thread Group 1-2,text,true,,6715,127,5,5,https://blazedemo.com/purchase.php,450,0,0
+1733925129276,1406,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-2,,false,,14450,660,5,5,null,572,2744,0
+1733925132952,705,Select Flight,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6950,350,4,4,https://blazedemo.com/purchase.php,278,0,0
+1733925132952,278,Select Flight-0,302,Found,Thread Group 1-1,text,true,,235,223,4,4,http://blazedemo.com/purchase.php,278,0,0
+1733925133229,428,Select Flight-1,200,OK,Thread Group 1-1,text,true,,6715,127,4,4,https://blazedemo.com/purchase.php,410,0,0
+1733925128930,1364,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-1,,false,,14454,660,4,4,null,557,3365,0
+1733925132992,705,Select Flight,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,3,3,https://blazedemo.com/purchase.php,291,0,0
+1733925132992,291,Select Flight-0,302,Found,Thread Group 1-4,text,true,,231,223,3,3,http://blazedemo.com/purchase.php,291,0,0
+1733925133282,415,Select Flight-1,200,OK,Thread Group 1-4,text,true,,6715,127,3,3,https://blazedemo.com/purchase.php,401,0,0
+1733925129414,1663,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-4,,false,,14454,660,3,3,null,708,2622,16
+1733925133411,711,Search Flights,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,3,3,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,294,0,0
+1733925133411,294,Search Flights-0,302,Found,Thread Group 1-3,text,true,,259,155,3,3,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,294,0,0
+1733925133706,416,Search Flights-1,200,OK,Thread Group 1-3,text,true,,7245,155,3,3,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,389,0,0
+1733925134699,711,Search Flights,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,3,3,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,296,0,0
+1733925134699,296,Search Flights-0,302,Found,Thread Group 1-4,text,true,,259,155,3,3,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,296,0,0
+1733925134995,415,Search Flights-1,200,OK,Thread Group 1-4,text,true,,7245,155,3,3,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,399,0,0
+1733925135337,682,Select Flight,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,3,3,https://blazedemo.com/purchase.php,291,0,0
+1733925135337,291,Select Flight-0,302,Found,Thread Group 1-3,text,true,,231,223,3,3,http://blazedemo.com/purchase.php,291,0,0
+1733925135628,391,Select Flight-1,200,OK,Thread Group 1-3,text,true,,6715,127,3,3,https://blazedemo.com/purchase.php,375,0,0
+1733925132409,1393,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-3,,false,,14450,660,3,3,null,585,2219,0
+1733925135561,661,Select Flight,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,2,2,https://blazedemo.com/purchase.php,275,0,0
+1733925135561,275,Select Flight-0,302,Found,Thread Group 1-5,text,true,,231,223,2,2,http://blazedemo.com/purchase.php,275,0,0
+1733925135837,385,Select Flight-1,200,OK,Thread Group 1-5,text,true,,6715,127,2,2,https://blazedemo.com/purchase.php,379,0,0
+1733925131398,1497,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-5,,false,,14450,660,2,2,null,568,3329,14
+1733925137224,676,Search Flights,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Flights from Paris to London/,7504,310,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,275,0,0
+1733925137224,275,Search Flights-0,302,Found,Thread Group 1-5,text,true,,259,155,2,2,http://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,275,0,0
+1733925137499,401,Search Flights-1,200,OK,Thread Group 1-5,text,true,,7245,155,2,2,https://blazedemo.com/reserve.php?fromPort=Paris&toPort=London,393,0,0
+1733925139399,709,Select Flight,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,2,2,https://blazedemo.com/purchase.php,294,0,0
+1733925139399,294,Select Flight-0,302,Found,Thread Group 1-4,text,true,,231,223,2,2,http://blazedemo.com/purchase.php,294,0,0
+1733925139693,415,Select Flight-1,200,OK,Thread Group 1-4,text,true,,6715,127,2,2,https://blazedemo.com/purchase.php,388,0,0
+1733925133698,1420,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-4,,false,,14450,660,2,2,null,590,4990,0
+1733925140780,677,Select Flight,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /Thank you for your purchase!/,6946,350,1,1,https://blazedemo.com/purchase.php,288,0,0
+1733925140780,288,Select Flight-0,302,Found,Thread Group 1-5,text,true,,231,223,1,1,http://blazedemo.com/purchase.php,288,0,0
+1733925141068,389,Select Flight-1,200,OK,Thread Group 1-5,text,true,,6715,127,1,1,https://blazedemo.com/purchase.php,384,0,0
+1733925136223,1353,Search_Flight_Transaction,,"Number of samples in transaction : 3, number of failing samples : 2",Thread Group 1-5,,false,,14450,660,1,1,null,563,3881,0
